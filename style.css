@@ -1,0 +1,63 @@
+h1{
+    color:blue;
+}
+
+.header{
+    background-color:#aa77dd;
+    display:flex;
+    justify-content:space-around;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h3{
+    color:black;
+}
+
+body{
+    background-color:#aa77dd;
+}
+.text { text-align:center; font-size:30px;
+    text-shadow:2px 3px 5px yellow, 0px 2px 3px red;
+    letter-spacing:1px;
+    word-spacing:2px;
+  }
+.header *{
+
+    
+    margin-left:10px;
+    margin-right:10px;
+    padding-top: 5px;
+    
+   
+
+}
+.menu {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.item{
+    position: relative;
+
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.11;
+}
